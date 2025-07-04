@@ -1,0 +1,6 @@
+@DentalClinic.Challenge.Web_HostAddress = http://localhost:5250
+
+GET {{DentalClinic.Challenge.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
