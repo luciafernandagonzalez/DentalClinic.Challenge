@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Appl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Core", "DentalClinic.Challenge.Core\DentalClinic.Challenge.Core.csproj", "{6715540B-3702-400E-B42C-5B08C5B08FD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Infraestructure", "DentalClinic.Challenge.Infraestructure\DentalClinic.Challenge.Infraestructure.csproj", "{CE535BF6-8CF6-4AF0-B6BB-264BBE5FD78C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Infrastructure", "DentalClinic.Challenge.Infraestructure\DentalClinic.Challenge.Infrastructure.csproj", "{CE535BF6-8CF6-4AF0-B6BB-264BBE5FD78C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Web", "DentalClinic.Challenge.Web\DentalClinic.Challenge.Web.csproj", "{351AAA61-C2BA-4B7E-AA19-1DE41A89F710}"
 EndProject
