@@ -3,21 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Challenge.Application", "DentalClinic.Challenge.Application\DentalClinic.Challenge.Application.csproj", "{3EF8BE3C-C97F-4231-B54C-DCB334DF7358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Application", "DentalClinic.Challenge.Application\DentalClinic.Challenge.Application.csproj", "{3EF8BE3C-C97F-4231-B54C-DCB334DF7358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Challenge.Core", "DentalClinic.Challenge.Core\DentalClinic.Challenge.Core.csproj", "{6715540B-3702-400E-B42C-5B08C5B08FD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Core", "DentalClinic.Challenge.Core\DentalClinic.Challenge.Core.csproj", "{6715540B-3702-400E-B42C-5B08C5B08FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Challenge.Infraestructure", "DentalClinic.Challenge.Infraestructure\DentalClinic.Challenge.Infraestructure.csproj", "{CE535BF6-8CF6-4AF0-B6BB-264BBE5FD78C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Infraestructure", "DentalClinic.Challenge.Infraestructure\DentalClinic.Challenge.Infraestructure.csproj", "{CE535BF6-8CF6-4AF0-B6BB-264BBE5FD78C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Challenge.Web", "DentalClinic.Challenge.Web\DentalClinic.Challenge.Web.csproj", "{351AAA61-C2BA-4B7E-AA19-1DE41A89F710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalClinic.Challenge.Web", "DentalClinic.Challenge.Web\DentalClinic.Challenge.Web.csproj", "{351AAA61-C2BA-4B7E-AA19-1DE41A89F710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3EF8BE3C-C97F-4231-B54C-DCB334DF7358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +33,11 @@ Global
 		{351AAA61-C2BA-4B7E-AA19-1DE41A89F710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{351AAA61-C2BA-4B7E-AA19-1DE41A89F710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{351AAA61-C2BA-4B7E-AA19-1DE41A89F710}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CBF2323-60A2-4B08-82FF-F256CF445B00}
 	EndGlobalSection
 EndGlobal

@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DentalClinic.Challenge.Core\DentalClinic.Challenge.Core.csproj" />
     <ProjectReference Include="..\DentalClinic.Challenge.Application\DentalClinic.Challenge.Application.csproj" />
+    <ProjectReference Include="..\DentalClinic.Challenge.Web\DentalClinic.Challenge.Web.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -4,6 +4,14 @@
     <ProjectReference Include="..\DentalClinic.Challenge.Core\DentalClinic.Challenge.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="Interfaces\Repositories\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
