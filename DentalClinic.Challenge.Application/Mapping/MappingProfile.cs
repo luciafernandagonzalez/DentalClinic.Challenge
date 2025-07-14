@@ -13,9 +13,7 @@ namespace DentalClinic.Challenge.Application.Mapping
 
             CreateMap<SpecialtyDto, Specialty>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
-                .ForMember(dest => dest.RowVersion, opt => opt.MapFrom(src =>
-                string.IsNullOrEmpty(src.RowVersion) ? null : Convert.FromBase64String(src.RowVersion)
-                ));
+                .ForMember(dest => dest.RowVersion, opt => opt.Ignore());
         }
     }
 }
